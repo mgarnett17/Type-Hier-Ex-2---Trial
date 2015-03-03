@@ -1,0 +1,30 @@
+/* Base.scss */
+
+body {
+    @include body-font;
+	margin: 0 auto;
+	max-width: 600px;
+	width: 100%;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+h1, h2, h3 {
+    @include headline-font;
+}
+
+i, em {
+    @include body-font-italic;
+}
+
+b, strong {
+    @include body-font-bold;
+}
+
+ul {
+    margin: 0 0 0 1em;
+    padding: 0;
+}
